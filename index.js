@@ -140,7 +140,7 @@ export const handler = async (event) => {
       console.log("Estimated Wait Time (seconds):", metricValue);
 
       return {
-        estimatedWaitTime: metricValue // EWT in seconds, rounded
+        estimatedWaitTime: metricValue
       };
 
     } else {
